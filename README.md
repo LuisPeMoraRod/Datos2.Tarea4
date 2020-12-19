@@ -27,7 +27,7 @@ To run the DataBase, you should first install MongoDB and then hit the following
 
 ### `sudo systemctl start mongod`
 
-This should start data base in port 27017.\
+This should start data base in port: 27017.\
 To run the server, open a new tab terminal inside _api_ folder and hit the following command:
 
 ### `nodemon server`
