@@ -1,6 +1,6 @@
 # Frontend
 
-This repo provides a React application for the users CRUD system frontend. Download the image from Dockerhub to run the container.
+This repo provides a React application for the users CRUD system frontend. Download the image from Dockerhub to run the container. App should run in port *localhost:80*.
 
 Docker pull command:
 
