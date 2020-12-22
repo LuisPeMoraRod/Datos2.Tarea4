@@ -24,4 +24,5 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: chmod +x ./build.sh
     - run: ./build.sh
