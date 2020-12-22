@@ -3,10 +3,10 @@ npm install
 npm install bootstrap --save
 npm install react-router-dom --save
 
-echo "1/2 Starting build of react applicaion..."
+echo "2/3 Starting build of react applicaion..."
 npm run build
 
-echo "2/2 Packing application into docker image..."
+echo "3/3 Packing application into docker image..."
 docker build . -t users-crud-frontend
 
-echo "2/2 Steps completed"
+echo "3/3 Steps completed"
