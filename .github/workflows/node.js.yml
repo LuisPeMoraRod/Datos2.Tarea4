@@ -29,5 +29,5 @@ jobs:
       env:
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
       run: | 
-      chmod +x ./build.sh
-      ./build.sh
+        chmod +x ./build.sh
+        ./build.sh
